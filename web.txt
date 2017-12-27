@@ -1,0 +1,85 @@
+HBase原理：
+	Hbase数据库设计：http://blog.toocruel.net/hbase-design/
+	关系型数据库到HBase的数据储存方式变迁:http://www.cnblogs.com/xcloudbiz/articles/5082810.html
+	TRANSITIONING FROM AN RDBMS MODEL TO HBASE:http://www.dummies.com/programming/big-data/hadoop/transitioning-from-an-rdbms-model-to-hbase/
+	HBase工作原理：http://blog.leanote.com/post/lh1649896772@163.com/HBase%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86
+	HBase 深入浅出：https://segmentfault.com/a/1190000011280157
+	hbase原理分析：http://kaimingwan.com/post/da-shu-ju/hbaseyuan-li-fen-xi
+	HBase原理和设计：http://lxw1234.com/archives/2016/09/719.htm
+	Hbase模式（schema）设计时的tips：http://blog.kissdata.com/2014/07/30/hbase-scheme-tips.html
+	HBase表结构设计笔记：http://blog.edagarli.com/2016/02/06/HBase%E8%A1%A8%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/
+	我们为什么要选择 Hbase？http://www.58maisui.com/2016/08/31/237/
+	HBase的列簇：https://gmle.club/2016/09/19/HBase%E7%9A%84%E5%88%97%E7%B0%87/
+
+RDBMS--->HBase的MapReduce数据迁移
+	Data Migration from SQL to HBase Using MapReduce :https://acadgild.com/blog/data-migration-from-sql-to-nosql-using-mapreduce/
+	Importing Data Into HBase:https://www.cloudera.com/documentation/enterprise/5-6-x/topics/admin_hbase_import.html#xd_583c10bfdbd326ba--69adf108-1492ec0ce48--7f83
+	BULKLOADING DATA INTO HBASE TABLE USING MAPREDUCE:https://sreejithrpillai.wordpress.com/2015/01/08/bulkloading-data-into-hbase-table-using-mapreduce/
+	Import/Export data from/to RDBMS(like MySQL, Postgres) to/from HBase using Map Reduce Job:http://hadup.blogspot.com/2013/08/importexport-data-fromto-rdbmslike.html
+	
+	Data Bulk Loading into HBase Table Using MapReduce
+	https://acadgild.com/blog/data-bulk-loading-into-hbase-table-using-mapreduce/
+	
+	How to Import Table from MySQL to HBase By Sqoop
+	https://acadgild.com/blog/how-to-import-table-from-mysql-to-hbase/
+	
+RDBMS与Nosql的区别：
+	SQL vs. NoSQL Databases: What’s the Difference?https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/
+
+
+
+
+
+
+
+
+
+http://blog.sina.com.cn/s/blog_53b13d950102v9ml.html
+
+
+Put方法实现Mysql向Hbase数据迁移
+http://blog.csdn.net/songchunhong/article/details/47069699
+HBase——使用Put迁移MySql数据到Hbase
+https://www.cnblogs.com/zhuyijie/p/6465396.html
+
+http://hbase.apache.org/book.html#arch.bulk.load
+
+用Kettle的一套流程完成对整个数据库迁移
+http://ainidehsj.iteye.com/blog/1735434
+
+使用kettle向HBase导入数据
+http://blog.csdn.net/wenjiangchun/article/details/50163123
+
+小米从关系型Mysql到Nosql HBase的迁移实践
+http://www.dataguru.cn/thread-225722-1-1.html
+
+Hbase 数据迁移的常见方式：
+http://blog.csdn.net/kinglyjn/article/details/77685672
+
+hbase数据迁移put方法java代码
+http://blog.csdn.net/SONGCHUNHONG/article/details/50435521
+
+MySQL到HBase的迁移策略研究
+http://www.thebigdata.cn/HBase/31454.html
+基于HBase平台数据迁移及查询优化研究
+SQL Server到HBase的数据库迁移与查询研究
+分布式数据查询优化算法的研究与探讨 
+分布式数据库的查询优化
+大数据环境下基于HBASE的订单处理研究
+
+
+http://blog.csdn.net/ymh198816/article/details/51244911
+
+对于关系型数据库mysql的一对多的情况，在HBase中的表结构该怎么样设计？网上查看的资料都是这样的：
+[img=http://img.bbs.csdn.net/upload/201712/11/1512972663_530732.png][/img]
+将一对多中多的那一侧的字段均作为一个列族，可是HBase中推荐的列族数是少于3个的，这个矛盾能用什么方法解决？
+
+java读取XML文件的四种方式及比较
+http://blog.csdn.net/so_sss/article/details/40922079
+
+
+
+
+
+
+
